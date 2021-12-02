@@ -1,0 +1,4 @@
+dfDay1 = pd.read_csv("day1.csv")
+
+dfDay1['diff']=dfDay1.diff()
+
